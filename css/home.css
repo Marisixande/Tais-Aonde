@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+h-home{
+    display: flex;
+}
+
+m-home{
+    display: flex;
+}
+
+s-home{
+    display: flex;
+}
+
+f-home{
+    display: flex;
+}
+
+teste{
+    background-color: black;
+    height: 50%;
+    width: 50%;
+}
