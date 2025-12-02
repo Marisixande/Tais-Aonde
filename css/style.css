@@ -22,19 +22,107 @@
 body {
     font-family: 'Confortaa_light', sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    background-color: #0A1931;
+    width: 100dvw;
+    height: 100dvh;
+    color: white;
+}
+
+
+
+.lado-esquerdo{
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #0A1931;
+    display: flex;
+    flex-direction: column;
+    justify-self:flex-start
+}
+
+.lado-esquerdo img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #4a7fa7 ;
+    justify-content: center;
+    background-color: #B3CFE5;
+    border-radius: 30px;
+    color:white;
+    gap: 1rem;
+    width: 45dvw;
+    height: 60dvh;
+    font-size: 2.2rem;
+    
 }
 
-img {
-    width: 17.5rem;
-    height: 17.5rem;
+label{
+    font-family: 'Confortaa_bold';
+    display: flex;
 }
+
+input{
+    font-family: 'Confortaa_regular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color:white;
+    background-color: #4A7FA7;
+    border-color: transparent;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    width: 30dvw;
+    height: 6dvh;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+input::placeholder {
+    color: white;
+}
+.separar-botao{
+    padding-bottom: 2rem;
+}
+button {
+    font-family: 'Confortaa_regular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A7FA7;
+    color: white;
+    width: 20dvw;
+    height: 7dvh;
+    font-size: 2.2rem;
+    border-color: transparent;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+a{
+    font-size: 1.1rem;
+    padding-top: 1.5rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.lado-direito {
+    width: 100dvw;
+    height: 100dvh;
+    background-image: url('/img/img_cidade.png');
+    background-repeat: no-repeat;
+}
+
+
