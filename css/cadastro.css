@@ -30,26 +30,33 @@ body {
     color: white;
 }
 
-
-
 .lado-esquerdo{
     width: 100dvw;
     height: 100dvh;
     background-color: #0A1931;
     display: flex;
     flex-direction: column;
-    justify-self:flex-start
+    justify-self:flex-end;
+    justify-content: center;
 }
 
-.lado-esquerdo img {
+.logo {
     width: 10rem;
     height: 10rem;
+}
+
+.lado-direito {
+    width: 100dvw;
+    height: 100dvh;
+    background-image: url('/img/img_cidade.png');
+    background-repeat: no-repeat;
 }
 
 .formulario{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 5rem;
 }
 
 form {
@@ -62,14 +69,14 @@ form {
     color:white;
     gap: 1rem;
     width: 45dvw;
-    height: 60dvh;
+    height: 65dvh;
     font-size: 2.2rem;
-    
 }
 
 label{
     font-family: 'Confortaa_bold';
     display: flex;
+    margin-bottom: 10px;
 }
 
 input{
@@ -87,13 +94,16 @@ input{
     height: 6dvh;
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
 }
 input::placeholder {
     color: white;
 }
+
 .separar-botao{
     padding-bottom: 2rem;
 }
+
 button {
     font-family: 'Confortaa_regular';
     display: flex;
@@ -109,6 +119,7 @@ button {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
+
 a{
     font-size: 1.1rem;
     padding-top: 1.5rem;
@@ -116,13 +127,3 @@ a{
     color: white;
     cursor: pointer;
 }
-
-
-.lado-direito {
-    width: 90dvw;
-    height: 100dvh;
-    background-image: url('/img/img_cidade.png');
-    background-repeat: no-repeat;
-}
-
-
