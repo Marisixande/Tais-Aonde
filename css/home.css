@@ -4,56 +4,179 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Confortaa_light';
+    src: url('../fonts/Comfortaa/static/Comfortaa-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Confortaa_bold';
+    src: url('../fonts/Comfortaa/static/Comfortaa-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Confortaa_regular';
+    src: url('../fonts/Comfortaa/static/Comfortaa-Regular.ttf');
+} 
+
 body {
     display: flex;
     flex-direction: column;
     background-color: #B3CFE5;
     width: 100dvw;
     height: 100dvh;
+    overflow-x: hidden ;
 }
+
+nav {
+    background-color: #4A7FA7;
+    height: 9dvh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 34rem ;
+    padding-right: 2rem;
+    flex-direction: row;
+}
+
+
+input{
+    font-family: 'Confortaa_regular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/home-img/lupa-pesquisa.png);
+    background-repeat: no-repeat;
+    background-position: 2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: transparent;;
+    border-color: white ;
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    width: 30dvw;
+    height: 6dvh;
+    cursor: pointer;
+}
+input::placeholder {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 13.5rem;
+} 
+
+
+.logo {
+    height: 10rem;
+    width: 10rem;
+}
+
 
 header{
-    background-color: #0A1931;
-    height: 5vh;
-    width: 220;
+    height: 70dvh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
 }
 
+header img {
+    height: 60dvh;
+    width: 50dvw;
+    border-radius: 10px;
+}
 
-.m-home {
+.info-site{
+    font-family: 'Confortaa_bold';
     display: flex;
+    background-color: white;
+    color: #4A7FA7 ;
+    font-size: 2.5rem;
+    height: 60dvh;
+    width: 40dvw;
+    border-radius: 10px;
+    padding: 2rem;
+    overflow-wrap: break-word;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+p{
+    display: flex;
+    align-items: flex-start;
     
 }
 
-.m-home img {
-    height: 14rem;
-    width: 24rem;
-}
-
-.s-home-1 {
-    position: relative;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 3rem;
-    margin: 2rem;
-
-}
-
-.s-home-2 {
-    position: relative;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 3rem;
-    margin: 2rem;
-}
-
-.f-home {
+#btn-planos{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A7FA7;
+    color: white;
+    width: 25dvw;
+    height: 10dvh;
+    font-size: 2.2rem;
+    border-color: transparent;
+    border-radius: 45px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+footer{
+    font-family: 'Confortaa_regular';
+    color: white;
+    font-size: 1rem;
+    background-color: #4A7FA7;
+    height: 40dvh;  
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.outros-apps span {
+    font-family: 'Confortaa_bold';
+    font-size: 1.3rem;
+    padding-bottom: 1.2rem;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
+.apps {
+    display: flex;
+    padding-bottom: 1.2rem;
+    flex-direction: row;
+    align-items: center;
 }
 
-.teste {
-    background-color: black;
-    height: 50%;
-    width: 50%;
+.apps img {
+    height: 5.2dvh;
+    width: 2.5dvw;
+    cursor: pointer;
 }
+
+.colaboradores{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1.2rem;
+}
+.colaboradores p {
+    font-family: 'Confortaa_bold';
+    font-size: 1.3rem;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-bottom: 1.2rem;
+}
+
+
+
