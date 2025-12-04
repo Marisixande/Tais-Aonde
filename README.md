@@ -1,3 +1,5 @@
 Tais Aonde, seria um site para auxiliar quem visita a cidade de Florianópolis-SC e não sabe nem se localizar, nem se as avaliações dos demais sites são reais. Seria possível ver avaliações de lugares de acordo com seu objetivo com a viagem, criar rotas, utilizar um sistema de GPS, encontrar hospedagens e (caso a ideia seja levada para frente) ganhar descontos em certos estabelecimentos. De inicio o usuario apenas teria acesso a 2 avaliações e o sistema GPS e o resto das funcionalidades so ficariam disponiveis para aqueles que pagam um plano mensal, caso se interesse nas outras ofertas. Também existiria a opção por um plano especifico para locais da área conseguirem anunciar seus servisos de estadia.
 
 Confira este arquivo onde apresentamos mais profundamente nossa ideia e compartilhamos nossos wireframes: https://drive.google.com/file/d/1M90HcmdEgn6VL8Ob-0NBNilpX77Htk7Q/view?usp=sharing
+
+Link do nosso deploy online funcional: https://6931c5082a164bbb99e2ca6e--transcendent-elf-270ced.netlify.app/
