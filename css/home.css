@@ -95,7 +95,7 @@ header img {
     display: flex;
     background-color: white;
     color: #4A7FA7 ;
-    font-size: 2.5rem;
+    font-size: 3rem;
     height: 60dvh;
     width: 40dvw;
     border-radius: 10px;
@@ -145,17 +145,23 @@ main{
 .s-home-1 {
     position: relative;
     display: grid;
+    justify-items: center;
     grid-template-columns: auto auto auto auto;
     gap: 3rem;
-    margin: 2rem;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
 }
 
 .s-home-2 {
     position: relative;
     display: grid;
+    justify-items: center;
     grid-template-columns: auto auto auto auto ;
     gap: 3rem;
-    margin: 2rem;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
 }
 
 .n-locais p{
@@ -163,7 +169,14 @@ main{
 }
 
 h1{
-    margin: 1rem;
+    padding: 2rem;
+     border-bottom: 10px solid #4A7FA7; /* Adjust thickness and color as needed */
+  border-radius: 30px; /* Adjust the rounding amount */
+  padding-bottom: 2px; /* Add some space between text and underline */
+    /* text-decoration: underline;
+    text-decoration-thickness: 10px ;
+    text-underline-offset: 0.5rem ; */
+   
     font-family: 'Confortaa_bold';
     color: #4A7FA7;
 }
